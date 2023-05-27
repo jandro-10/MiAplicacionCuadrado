@@ -14,7 +14,7 @@
         <Frame BackgroundColor="#820000" Padding="24" CornerRadius="0">
             <Label Text="Bienvenidos a Cuadra Plus" HorizontalTextAlignment="Center" TextColor="White" FontSize="20"/>
         </Frame>
-        <Entry Text="{Binding Lado}" Keyboard="Numeric" Placeholder="ingrese un valor"> </Entry>
+            <Text="{Binding Lado}" Keyboard="Numeric" Placeholder="ingrese un valor" />
             
          <Button Command="{Binding Crear}" Text="Crear"></Button>
 
