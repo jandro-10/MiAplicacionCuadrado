@@ -29,7 +29,7 @@ namespace MiAppCuadrado.ViewModels
             set
             {
                 lado = value;
-                var args = new PropertyChangedEventArgs(nameof(lado));
+                var args = new PropertyChangedEventArgs(nameof(Lado));
                 PropertyChanged?.Invoke(this, args);
             }        
         }
@@ -43,7 +43,7 @@ namespace MiAppCuadrado.ViewModels
             {
 
                 resultado = value;
-                var args = new PropertyChangedEventArgs(nameof(resultado));
+                var args = new PropertyChangedEventArgs(nameof(Resultado));
                 PropertyChanged?.Invoke(this, args);
             }
         }
